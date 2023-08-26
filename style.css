@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #e8eaed;
+    background-color: #202124;
+    font-size: 135%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+li {
+    margin-bottom: 20px;
+    border: 10px;
+    border-color: #e8eaed;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px 0px 20px 0px;
+}
