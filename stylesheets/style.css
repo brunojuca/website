@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "opensans";
+  src: url("/fonts/opensans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #e8eaed;
+  font-family: "opensans", "Open Sans", sans-serif;
+  color: #eee;
   background-color: #111;
 }
 
@@ -30,7 +37,7 @@ i {
 }
 
 .avatar {
-  width: 180px;
+  width: 170px;
   border-radius: 50%;
   margin: 40px 0px 0px 0px;
 }
