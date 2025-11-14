@@ -13,6 +13,18 @@
     <meta name="msapplication-TileColor" content="#1d1d1d" />
     <title>Bruno Jucá</title>
     <style>
+      :root {
+        --bg: #222;
+        --fg: #fff;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #fff;
+          --fg: #222;
+        }
+      }
+
       @font-face {
         font-family: "opensans";
         src: url("/fonts/opensans.woff2") format("woff2"),
@@ -24,8 +36,8 @@
 
       html {
         font-family: "opensans", "Open Sans", sans-serif;
-        color: #eee;
-        background-color: #111;
+        color: var(--fg);
+        background-color: var(--bg);
       }
 
       a {
@@ -69,6 +81,9 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
   </head>
   <body>
+    <header>
+      <button></button>
+    </header>
     <main role="main" class="container">
       <img
         class="avatar"
